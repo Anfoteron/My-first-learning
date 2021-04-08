@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
     <main role="main">
     <head>
+        <meta charset="UTF-8">
         <title>Mi primer blog en HTML</title>
         <link rel="stylesheet" href="css/estilos.css"/>
     </head>
@@ -14,7 +16,7 @@
         <a href="#Pie de pagina">Contacts</a>
         <p><a href="#">Aqui pronto pondré otro link</a></p>
         <h1>Esté será mi primer blog</h1>
-        <h2>Este es mi primer subtitulo</h2>
+        <h2 style="color: black;">Este es mi primer subtitulo</h2>
         <p>Este es mi primer parrafo</p>
         <p>Este es mi primer cambio desde otra terminal</p>
         <!--Aqui dejo mi primer comentario de como voy aprendiendo-->
@@ -23,29 +25,31 @@
         <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="My first image"></a>
         <p><a href="https://www.linkedin.com">This links to linkedin</a></p>
         <h2 id="Pie de pagina">Contacts</h2>
+        <div>
         <form>
         <label for="indoor">
-            <input type="radio" name="indoor-outdoor">Indoor
+            <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
         </label>
-        </form>
-        <form>
         <label for="outdoor">
-            <input type="radio" name="indoor-outdoor">Outdoor
+            <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor" checked>Outdoor
         </label>
         </form>
+        </div>
+        <div>
         <form>
             <label for="Pulsar">
-                <input id="Pulsar" type="checkbox" name="Tipo de estrella">Pulsar
+                <input id="Pulsar" value="Pulsar" type="checkbox" name="Tipo de estrella">Pulsar
             </label>
         </form>
         <form>
             <label for="Magnetar">
-                <input id="Magnetar" type="checkbox" name="Tipo de estrella">Magnetar
+                <input id="Magnetar" value="Magnetar" type="checkbox" name="Tipo de estrella">Magnetar
             </label>
         <form>
             <label for="Quasar">
-                <input id="Quasar" type="checkbox" name="Tipo de estrella">Quasar
+                <input id="Quasar" value="Quasar" type="checkbox" name="Tipo de estrella" checked>Quasar
             </label>
+        </div>
         <ul>
             <li>Mercurio</li>
             <li>Venus</li>
