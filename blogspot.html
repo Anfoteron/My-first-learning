@@ -3,7 +3,7 @@
     <link href="https://fonts.googleapis.com/css?family=lobster" rel="stylesheet" type="text/css">
     <style>
         .smaller-image {width: 250px;}
-        .thin-red-border {border-color: red; border-width: 5px; border-style: solid; border-radius: 10px;}
+        .thin-red-border {border-color: orange; border-width: 5px; border-style: solid; border-radius: 50%;}
     </style>
     <style>
         font-family: FAMILY_NAME, GENERIC:NAME;
@@ -12,6 +12,9 @@
         .browser-text {font-size: 35px;}
         h2 {font-family: arial Narrow, sans-serif;}
         p {font-family: lobster;}
+    </style>
+    <style>
+        .orange-background {background-color:orange;}
     </style>
     <main role="main">
     <head>
@@ -39,7 +42,8 @@
         <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="My first image" class="smaller-image thin-red-border"></a>
         <p><a href="https://www.linkedin.com">This links to linkedin</a></p>
         <h2 id="Pie de pagina">Contacts</h2>
-        <div>
+     
+        <div class="orange-background">
         <form>
         <label for="indoor">
             <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor
@@ -64,7 +68,7 @@
                 <input id="Quasar" value="Quasar" type="checkbox" name="Tipo de estrella" checked>Quasar
             </label>
         </div>
-        <ul>
+            <ul>
             <li>Mercurio</li>
             <li>Venus</li>
             <li>Tierra</li>
