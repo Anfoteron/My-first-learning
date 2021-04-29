@@ -1,5 +1,6 @@
 body
 {
+    background-color: rosybrown;
     color: black;
     text-align: center;
     font-family: "arial";
@@ -8,3 +9,5 @@ body
 #footer-text {background-color: peru; padding: 15px; margin-bottom: 5px;}
 #My-first-title {background-color: mediumorchid; padding: 10px 20px 20px 10px; margin: 10px 20px 10px 20px;}
 [id='first_planet'] {background: deepskyblue;}
+#My-first-subtitle {padding: 1.5em; color: red;}
+.browser-text {color: orange;}
