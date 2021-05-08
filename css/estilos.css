@@ -1,13 +1,19 @@
 body
 {
-    background-color: rosybrown;
-    color: black;
+    background-color: wheat;
+    color: black !important;
     text-align: center;
     font-family: "arial";
+    --background-color: peru;
+
 }
 #Stars_types {background-color: maroon;}
 #footer-text {background-color: peru; padding: 15px; margin-bottom: 5px;}
 #My-first-title {background-color: mediumorchid; padding: 10px 20px 20px 10px; margin: 10px 20px 10px 20px;}
 [id='first_planet'] {background: deepskyblue;}
 #My-first-subtitle {padding: 1.5em; color: red;}
-.browser-text {color: orange;}
+.browser-text {color:black;}
+#Hexadecimal {color:#1CEC11}
+[id='Hexadecimal'] {background-color: #D7DF01;}
+#RGB {color: rgb(255, 165, 0); background-color: darkolivegreen;}
+#Variable {background-color: var(--background-color);}
